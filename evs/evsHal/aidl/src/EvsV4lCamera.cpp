@@ -337,7 +337,12 @@ ScopedAStatus EvsV4lCamera::setIntParameter(CameraParam id, int32_t value,
                     static_cast<int>(EvsResult::UNDERLYING_SERVICE_ERROR));
         }
 
-        (*effectiveValue)[0] = control.value;
+        if(effectiveValue) {
+            if(effectiveValue->empty()) {
+                effectiveValue->resize(1);
+            }
+            (*effectiveValue)[0] = control.value;
+        }
     }
 
     return ScopedAStatus::ok();

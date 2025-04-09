@@ -39,7 +39,22 @@
       "hflip" : true,
       "vflip" : false,
       "width": 1280,
-      "height": 720
+      "height": 720,
+      "cameraparam":
+      {
+        "brightness" : 255,
+        "contrast" : 255,
+        "autogain" : 0,
+        "gain" : 150,
+        "awb" :  0,
+        "wbt" : 6000,
+        "sharpness" : 255,
+        "ae" : 0,
+        "exposureval" : 150,
+        "af" : 0,
+        "focusval" : 255,
+        "abszoom" : 300
+      }
     },
     {
       "cameraId" : "/dev/video1",
@@ -55,7 +70,23 @@
       "hflip" : false,
       "vflip" : false,
       "width": 1920,
-      "height": 1080
+      "height": 1080,
+      "cameraparam":
+      {
+        "brightness" : 150,
+        "contrast" : 150,
+        "autogain" : 0,
+        "gain" : 150,
+        "awb" :  0,
+        "wbt" : 2000,
+        "sharpness" : 150,
+        "ae" : 0,
+        "exposureval" : 150,
+        "af" : 0,
+        "focusval" : 150,
+        "abszoom" : 150
+      }
+
     },
     {
       "cameraId" : "/dev/video2",
@@ -71,7 +102,23 @@
       "hflip" : false,
       "vflip" : false,
       "width": 1920,
-      "height": 1080
+      "height": 1080,
+      "cameraparam":
+      {
+        "brightness" : 150,
+        "contrast" : 150,
+        "autogain" : 0,
+        "gain" : 150,
+        "awb" :  0,
+        "wbt" : 2000,
+        "sharpness" : 150,
+        "ae" : 0,
+        "exposureval" : 150,
+        "af" : 0,
+        "focusval" : 150,
+        "abszoom" : 150
+      }
+
     },
     {
       "cameraId" : "/dev/video3",
@@ -87,7 +134,22 @@
       "hflip" : false,
       "vflip" : false,
       "width": 1632,
-      "height": 1536
+      "height": 1536,
+      "cameraparam":
+      {
+        "brightness" : 150,
+        "contrast" : 150,
+        "autogain" : 0,
+        "gain" : 150,
+        "awb" :  0,
+        "wbt" : 2000,
+        "sharpness" : 150,
+        "ae" : 0,
+        "exposureval" : 150,
+        "af" : 0,
+        "focusval" : 150,
+        "abszoom" : 150
+      }
     }
   ]
 }
